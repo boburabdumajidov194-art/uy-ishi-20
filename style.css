@@ -1,0 +1,141 @@
+header{
+    width: 1440px;
+    height: 156px;
+position: relative;
+box-shadow: 3px 3px 3px grey;
+
+
+}
+.header__logo{
+    width: 200px;
+    height: 55px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.header__king{
+    display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  top: 40px;
+}
+.header__card{
+    display: flex;
+}
+.header__photo{
+    width: 35px;
+    height: 32px;
+    margin-top: 16px;
+}
+.header__text{
+    color: grey;
+    font-size: 20px;
+ 
+}
+.header__but{
+    width: 219px;
+    height: 63px;
+    border-radius: 20px;
+    background-color: white;
+border: 3px solid red;
+    color: red;
+}
+.header__card1{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    right: 50px;
+}
+main{
+    background-color: whitesmoke;
+   position: relative;
+}
+.main__card{
+    width: 1440px;
+    height: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.main__card1{
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+}
+.main__logo{
+    width: 56px;
+    height: 56px;
+}
+.main__search{
+    width: 386px;
+    height: 63px;
+    border-radius: 15px;
+    background-color: black;
+}
+.main__button{
+    width: 116px;
+    height: 63px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 159);
+    color: white;
+    border-color: rgb(0, 0, 159);
+}
+.main__logo1{
+    width: 40px;
+    height: 40px;
+}
+.main__text1{
+    color: rgb(255, 55, 0);
+}
+.main__card3{
+    display: flex;
+}
+.main__logo1{
+    margin-top: 20px;
+}
+.main__card4{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-radius: 15px;
+   position: relative;
+}
+.main__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  width: 1400px;
+  height: 1000px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+position: absolute;
+top: 150px;
+}
+h4{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+}
+.main__photo1{
+  margin-left: 70px;
+}
+.main__photo2{
+    margin-left: 90px;
+position: absolute;
+top: 210px;
+}
+footer{
+    width: 1440px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer__logo{
+    width: 118px;
+    height: 32px;
+}
